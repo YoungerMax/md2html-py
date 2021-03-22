@@ -1,0 +1,9 @@
+# Ignore PyCharm / Idea files
+.idea
+*.iml
+
+# Ignore the Virtual Environment
+venv/
+
+# Don't want __pycache__
+__pycache__/
