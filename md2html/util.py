@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 # Replace the separators to the system preferred
 # separator
 def fix_separators(string: str):
