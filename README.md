@@ -1,9 +1,10 @@
 # md2html-py
-Simple Markdown to HTML converter
+Simple command line Markdown to HTML converter using Python 3
 
-# THIS IS NOT COMPLETE!
-Many features of Markdown are missing, one notably being links and inline elements (bold, code, stuff like that inline).
-Make an issue/pull request for missing features to be added.
+# How to use
+- Specify input (Markdown) file with --input (required)
+- Specify output (HTML) file with --output
 
-# Goals
-- no external dependencies
+# To Do
+- Inline elements (bold, strikethrough, etc.)
+- Minify HTML and CSS for low output size

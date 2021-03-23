@@ -1,0 +1,45 @@
+/* Quick configurations */
+:root {
+  /* List margin fix value */
+  --margin: 20px;
+
+  /* Margin to center the contents */
+  --side-margin: 25%;
+
+  /* Font family to use */
+  --font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+/* Some stuff */
+* {
+  /* Reset padding and margin */
+  margin: 0;
+  padding: 0;
+
+  /* Small margin at the top and bottom of the document */
+  margin-bottom: var(--margin);
+  margin-top: var(--margin);
+}
+
+/* Set the font and move text closer to the center */
+body {
+  margin-left: var(--side-margin);
+  margin-right: var(----side-margin);
+  font-family: var(--font);
+}
+
+/* Fix list margins */
+li {
+  margin-left: var(--margin);
+}
+
+/* For dark mode users */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: hsl(220, 13%, 13%)
+  }
+  
+  * {
+    color: hsl(220, 14%, 80%)
+  }
+}

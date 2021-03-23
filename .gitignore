@@ -7,3 +7,6 @@ venv/
 
 # Don't want __pycache__
 __pycache__/
+
+# Other stuff
+out/
